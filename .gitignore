@@ -1,0 +1,34 @@
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+tramp
+.\#*
+
+.org-id-locations
+*_archive
+
+.idea/
+
+build
+/**/build
+.DS_Store
+node_modules
+
+# binary
+*.zip
+*.tar
+*.tar.gz
+
+# gpgp keys
+secring.*
+
+# pem keys
+*.pem
+
+# ansible
+*.retry
+
+.vscode/*

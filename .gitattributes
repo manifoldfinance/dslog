@@ -1,0 +1,5 @@
+git-hash export-subst
+*.sh text eol=lf
+security.txt ident
+date*.txt filter=dater
+LATEST_DEPLOYMENT export-subst
