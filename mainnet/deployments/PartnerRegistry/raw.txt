@@ -1,0 +1,5 @@
+Metadata and sources of "partnerregistry" were published successfully.
+ManifoldFinanceRegistryV01.sol : 
+dweb:/ipfs/QmYPhgEVjUwPh19w6UdmxfW32Ca6oqEspX5YF47fTGGyF4
+metadata.json : 
+dweb:/ipfs/QmRKPNeVH7CUD8V1xwxYshJHaeXFSePCrF8i6CE4Fyi3Xv
