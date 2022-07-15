@@ -1,0 +1,118 @@
+{
+  "accounts": {
+    "account{0}": "0xA0766B65A4f7B1da79a1AF79aC695456eFa28644"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1657896273448,
+      "record": {
+        "value": "0",
+        "parameters": [],
+        "abi": "0x00a9cd94886c77f87b0dd9bd8592083e935c733f2d391c97ca11bec764c63e0f",
+        "contractName": "SecureRpcProvider",
+        "bytecode": "608060405234801561001057600080fd5b5061022e806100206000396000f3fe608060405234801561001057600080fd5b506004361061007d5760003560e01c80634b0e08151161005b5780634b0e0815146100dc57806357e871e7146100fa578063adb6183214610118578063ca49a543146101365761007d565b80630f28c97d146100825780631984a84b146100a05780633408e470146100be575b600080fd5b61008a610154565b60405161009791906101a7565b60405180910390f35b6100a861015c565b6040516100b591906101dd565b60405180910390f35b6100c6610161565b6040516100d391906101a7565b60405180910390f35b6100e461016e565b6040516100f191906101a7565b60405180910390f35b610102610176565b60405161010f91906101a7565b60405180910390f35b61012061017e565b60405161012d91906101a7565b60405180910390f35b61013e610186565b60405161014b91906101a7565b60405180910390f35b600042905090565b600090565b6000804690508091505090565b600045905090565b600043905090565b600042905090565b600042905090565b6000819050919050565b6101a18161018e565b82525050565b60006020820190506101bc6000830184610198565b92915050565b60008115159050919050565b6101d7816101c2565b82525050565b60006020820190506101f260008301846101ce565b9291505056fea2646970667358221220465e1eff86643345b2551b47ae340537fac7ef647ba665d4127a6ebb19ef52a764736f6c634300080f0033",
+        "linkReferences": {},
+        "name": "",
+        "inputs": "()",
+        "type": "constructor",
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0x00a9cd94886c77f87b0dd9bd8592083e935c733f2d391c97ca11bec764c63e0f": [
+      {
+        "inputs": [],
+        "name": "blockGaslimit",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "blockNumber",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "blockTimestamp",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getBlockTimeStamp",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getChainId",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getCurrentBlockTimestamp",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "timestamp",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "isSecureRpcProvider",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}
